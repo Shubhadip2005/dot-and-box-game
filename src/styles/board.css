@@ -1,0 +1,29 @@
+.line-hit {
+  stroke: transparent;
+  stroke-width: 14;
+  cursor: pointer;
+  transition: stroke 0.1s ease;
+}
+
+.line-hit:hover {
+  stroke: var(--paper-dot);
+}
+
+.line-hit.disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+  .game-layout {
+    flex-direction: column;
+  }
+
+  .side-column {
+    width: 100%;
+  }
+
+  .scoreboard {
+    position: static;
+  }
+}

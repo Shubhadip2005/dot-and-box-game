@@ -1,0 +1,113 @@
+.home-page {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 3rem;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.home-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 0.6rem;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 0.7rem;
+}
+
+.home-subtitle {
+  color: var(--ink-muted);
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.home-card {
+  padding: 1.8rem;
+}
+
+.mode-toggle {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+  background: var(--paper);
+  border-radius: var(--radius-md);
+  padding: 0.3rem;
+}
+
+.mode-tab {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 0.55rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+
+.mode-tab.active {
+  background: var(--surface);
+  color: var(--ink-text);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.field {
+  margin-bottom: 1.3rem;
+}
+
+.field-hint {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  margin-top: 0.4rem;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.range-input {
+  width: 100%;
+  accent-color: var(--ink-0);
+}
+
+.segmented {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.segment {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--surface-border);
+  background: var(--surface);
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--ink-text);
+}
+
+.segment.active {
+  border-color: var(--ink-0);
+  background: var(--ink-0);
+  color: var(--surface);
+}
+
+.room-code-input {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  text-align: center;
+  font-size: 1.15rem;
+}
